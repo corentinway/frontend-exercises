@@ -12,3 +12,4 @@ Ce repo fournit des exercices permettant de tester les compétences en intégrat
 - Exercice 1 : intégrer le header [ING](https://www.ing.fr)
 - Exercice 2 : faire un appel à API_URL et afficher la liste des users
 - Exercice 3 : intégrer le header [ING](https://www.ing.fr) avec Bootstrap
+- Exercice 4 : analyse de code

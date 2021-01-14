@@ -1,5 +1,7 @@
 
 module.exports = function(config) {
+
+  process.env.CHROME_BIN = require('puppeteer').executablePath();
   config.set({
     basePath: '',
 
@@ -13,13 +15,10 @@ module.exports = function(config) {
       'test/**/*Spec.js'
     ],
 
-    browsers : ['PhantomJS'],
+    browsers : ['ChromeHeadless'],
 
     plugins : [
-        'karma-babel-preprocessor',
-        'karma-growl-reporter',
-        'karma-phantomjs-launcher',
-        'karma-jasmine'
+      'karma-chrome-launcher', 'karma-babel-preprocessor', 'karma-growl-reporter', 'karma-jasmine'
     ],
 
     exclude: [],
