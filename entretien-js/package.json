@@ -1,0 +1,35 @@
+{
+  "traderName": "entretien-js",
+  "version": "0.0.1",
+  "description": "Set of JS exercices for ING recruitment",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/karma start karma.conf.js"
+  },
+  "dependencies": {
+    "es6-promise": "^3.1.2",
+    "lodash": "^3.10.1",
+    "whatwg-fetch": "^0.11.0"
+  },
+  "keywords": [
+    "Karma",
+    "Jasmine"
+  ],
+  "author": "Michel C.",
+  "license": "CC BY-SA",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "latest",
+    "karma-babel-preprocessor": "^8.0.0-beta.0",
+    "karma-growl-reporter": "^0.1.1",
+    "karma-jasmine": "^0.2.2",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "phantomjs": "^1.9.16"
+  }
+}
